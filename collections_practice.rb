@@ -21,4 +21,4 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.each {|string| "#{string[0..1]}$#{string[3..-1]}}
+  array.each {|string| "#{string[0..1]}$#{string[3..-1]}"}
