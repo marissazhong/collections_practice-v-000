@@ -23,3 +23,5 @@ end
 def kesha_maker(array)
   result = []
   array.each {|string| result << "#{string[0..1]}$#{string[3..-1]}"}
+  result
+end
