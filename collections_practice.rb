@@ -31,9 +31,7 @@ def find_a(array)
 end
 
 def sum_array(array)
-  sum = 0
   array.reduce(:+)
-  sum
 end
 
 def add_s(array)
