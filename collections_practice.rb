@@ -25,3 +25,6 @@ def kesha_maker(array)
   array.each {|string| result << "#{string[0..1]}$#{string[3..-1]}"}
   result
 end
+
+def find_a(array)
+  array.all? {|word| word.start_with?("a")}
